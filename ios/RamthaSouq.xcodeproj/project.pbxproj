@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* RamthaSouqTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RamthaSouqTests.m */; };
+		05940430FD0992E53207B5E8 /* libPods-RamthaSouq-RamthaSouqTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07659A0530C1C0BFA479EA80 /* libPods-RamthaSouq-RamthaSouqTests.a */; };
+		063F2191791F4BAAB74BA7EC /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE8826A9B68E4CB1BACD2C37 /* Roboto_medium.ttf */; };
+		115DCEC147524D38A93CB33F /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E681775A9A004254B61DD67A /* Montserrat-Bold.otf */; };
+		1323FDCD7322417F8090A833 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802C3C999B674CA88F14413F /* FontAwesome.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18229A69BF6C4B90860D8BE4 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E127B304271C48328712416F /* Montserrat-SemiBoldItalic.ttf */; };
+		1F7C1B35A0FA4E74885F2F24 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B5C68E9E5249FA8993E8AF /* EvilIcons.ttf */; };
+		2026014E57E14F8EAC605919 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 177CA6A933F741DA87E60F0D /* Fontisto.ttf */; };
+		2A66053FAB354F31B6C02E45 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADE0C5AD8F7F41A0ADE299BF /* Montserrat-ExtraBoldItalic.ttf */; };
+		2AFA813494534358BAA075B0 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3985765494524183B14E2923 /* Ionicons.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* RamthaSouqTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RamthaSouqTests.m */; };
+		39B350459BE74B28B3EAE322 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5656AD8273184B0284A0B2D7 /* FontAwesome5_Regular.ttf */; };
+		40370F6224A3F806000A5784 /* 1-souq (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 40370F6124A3F806000A5784 /* 1-souq (2).png */; };
+		44A636F5CCB94E59B3CD275B /* Amiri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E57BD84D67456FA8695A23 /* Amiri-Bold.ttf */; };
+		4616D8C7A19E490CA578FB29 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C663A14B242B4C61B1A30CBF /* Raleway-ThinItalic.ttf */; };
+		48E5180DCE194F70B3756ECD /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 896AB36530ED4D869B4A5BCC /* Raleway-Italic.ttf */; };
+		4B30948EF590497EAF15EEE9 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABC5440D3CC045FB8E2FE10B /* Montserrat-BlackItalic.ttf */; };
+		4C97B0DD410441A8BA0FD4D3 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9C1914E52E94CB3B98E45DC /* Montserrat-ThinItalic.ttf */; };
+		50C72F5E98A74759B52022D7 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99D22857FB4C410C9A90ECC3 /* Zocial.ttf */; };
+		50F06DD378764798B0F1455A /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D77910AC226148FCBD320A98 /* Raleway-BlackItalic.ttf */; };
+		51AF1A02E19C4C1FA531504A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2CC8A5D1EFE4F7485117C5F /* FontAwesome5_Solid.ttf */; };
+		55C27695B0A04498BC5C6A6B /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EBBC6FF0A845C6B052E297 /* Montserrat-SemiBold.ttf */; };
+		5615809CA00045BE86100F01 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8741FA7CBA34DEB90173D36 /* Raleway-Thin.ttf */; };
+		561C8A9D2F9545BB8423B22E /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4A2ADC8A21749ABA93DC68C /* Cairo-Light.ttf */; };
+		6C9598CFBDD24CD6A397D0BD /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD14B7DB0C6846C2B237EF0A /* Montserrat-Medium.ttf */; };
+		6E818CF9716144CC95566DFE /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56CF8563071F48F8A42255A8 /* Montserrat-LightItalic.ttf */; };
+		6E99D940D7814E91A550DB34 /* Amiri-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 546A58FF0999445BAA9CACDC /* Amiri-BoldItalic.ttf */; };
+		6EBFFEA5EB9047F5807615F3 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ADC996B06874629B4B28305 /* Raleway-SemiBold.ttf */; };
+		70216344CB40427E9E540F55 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80F06E7362F347079C7D3CD9 /* Feather.ttf */; };
+		705F42AD8D9345A3A0D28F75 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C09B8DFC0F543DEA0EDF108 /* Raleway-Light.ttf */; };
+		70F8B7DABBDA47CD9941CB50 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4695C0C8E6B44F41B6E80196 /* Montserrat-ExtraBold.ttf */; };
+		74EE801694294070B0B7C8D0 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D419E5154FF04BF3B88F1E83 /* Cairo-Bold.ttf */; };
+		75D99B537B174CBCB7F47F7E /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3E359A2324EF8BD39C476 /* MaterialIcons.ttf */; };
+		79B837C89BF7413F9299C8DB /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78713501480A4DA0BA2BD58F /* Montserrat-ExtraLight.ttf */; };
+		7BB6B6ACD2644ACEBD6E2CA3 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD03B930AEF041769CB29BC1 /* Cairo-ExtraLight.ttf */; };
+		7D2E0B9C086B454AADFEC1BA /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFCC1ED6EC41119B78223B /* Cairo-Black.ttf */; };
+		7FF01230B87B47FEB8433C77 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1D368B8D154E7190A82DB5 /* FontAwesome5_Brands.ttf */; };
+		82A16E15942841FA898251D7 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1BB40259222497D9D0E0FC4 /* Raleway-BoldItalic.ttf */; };
+		83FCBD2E770A4F0D871426E6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F1722C923040798050D057 /* Montserrat-Regular.ttf */; };
+		91BA22D5A7A044A2A7CD95F2 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D33A26F060647EC9869CBEC /* Raleway-ExtraBoldItalic.ttf */; };
+		921C83D9F20A43FF842606A7 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C31B9B636A294CF6930937C2 /* Raleway-ExtraLight.ttf */; };
+		935603D619ED49ACA2EE90A1 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B94E3B29214E4D9C2CAB35 /* Raleway-SemiBoldItalic.ttf */; };
+		95E3CF26E43D4980B750E56F /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E530E45E6C4AAEB137A14F /* Montserrat-MediumItalic.ttf */; };
+		97B3EEE2DDA94407ADBCBC35 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1628CAE024CF411590EB9594 /* Montserrat-Italic.ttf */; };
+		9E8228BC692946A0AECADF15 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DCBDB77DED042648493B7AE /* Raleway-MediumItalic.ttf */; };
+		9F1F842D0EF24BCCAA566268 /* Amiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2D30786355841459169B63D /* Amiri-Regular.ttf */; };
+		A2F347ED83B14AC59A2536C6 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20D49F9A7506454B8A72506D /* Cairo-SemiBold.ttf */; };
+		A5A0064266DE4CBFA6401C1D /* now.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42D896788D6D4536B7D3DF9C /* now.ttf */; };
+		A64AD58B335B0B7EB03F3D62 /* libPods-RamthaSouq-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB82B5662F4F2B48CAA6FFB7 /* libPods-RamthaSouq-tvOS.a */; };
+		B11C73EEE27B47D9A66D170C /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AD405832E7E4D92A7BF13F1 /* Montserrat-ExtraLightItalic.ttf */; };
+		B3A6BFF6C14347E3864606BA /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA639E075C114207AAFF38F2 /* Raleway-ExtraLightItalic.ttf */; };
+		B71877655E4381407FD4C900 /* libPods-RamthaSouq-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C17524B37DFF6B6C0C5C25CD /* libPods-RamthaSouq-tvOSTests.a */; };
+		BAADC44DFD334639A55B29F2 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2280E07973C7497484451BB2 /* Montserrat-Light.ttf */; };
+		C1B8705DA75A4869993F348A /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53707DD125B1477585F7B74A /* Raleway-Bold.ttf */; };
+		C4D3634FC4404DCEAD26FBF0 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03F40CC7248D4C599339775F /* Raleway-Medium.ttf */; };
+		C97FCDEBB99947A383F6C271 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73894F34D7D946CAA8634B19 /* Raleway-LightItalic.ttf */; };
+		D8E334AEBE1848DB8CF01EAE /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D6413D56F4FF0B6BE6A3C /* Raleway-Black.ttf */; };
+		DB8BCC8B97224096A506A08C /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B784A1BEA704152B90F6FA5 /* rubicon-icon-font.ttf */; };
+		DC71ED65C9A24F1C8709E53B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FB79F6257EF47D893F39BE1 /* Foundation.ttf */; };
+		DE1CC8C4BB8044C0952FD2F0 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE30B6A7832A44698A64ADD8 /* Raleway-ExtraBold.ttf */; };
+		DEA78A8391BD4802A60699CF /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1956AFCC76F74571A6E73245 /* Cairo-Regular.ttf */; };
+		E315D22A52334A06AAB4830D /* Amiri-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09ABB1DE616349C6B2A0BE65 /* Amiri-Italic.ttf */; };
+		E37A1D2C27CD4E0582085E50 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD3D40742FB1415DA0F87B18 /* Montserrat-BoldItalic.ttf */; };
+		E3D54703DBA24A2DB41416B4 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F96FE11E49D467FB7EFCA7D /* Montserrat-Bold.ttf */; };
+		E4EC1B44F91E41A7975A49BB /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B5B6E0D7B27442E9D601679 /* AntDesign.ttf */; };
+		E5BB164C71664B3C9BD5BF7E /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F92A2DCB5AC4442C86C65760 /* Entypo.ttf */; };
+		E693DAA6218841AE92ACEE28 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E054F3937AB44403A5814A04 /* Octicons.ttf */; };
+		E7637FE4032B1C9EBB9AB919 /* libPods-RamthaSouq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40ADABDF8FA2FA1CA787EBB /* libPods-RamthaSouq.a */; };
+		EB67F88D851846838CAF8829 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D427F45734A4AB3DE7349 /* Montserrat-Black.ttf */; };
+		F01E4DE464474D1F844DA0A6 /* pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42F9B3FD767D4925B1E0E54D /* pacifico.ttf */; };
+		F66D555ECC254A8BA16632BC /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66D16DDE3BD846E7AC173E8F /* Montserrat-Black.otf */; };
+		FB463D85BD114A92A923F395 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57ED58B4E60540F1B71D9C2B /* Raleway-Regular.ttf */; };
+		FBD0D3739F8B406588063A0B /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 039E5DD2B72C471D81FAD2CC /* Montserrat-Thin.ttf */; };
+		FE06E510416D42D7B236C7C5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33A5A1D296B3408B862008C3 /* MaterialCommunityIcons.ttf */; };
+		FF6A5FF49F574012BFDBF70E /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2BA0C981244B09B669FB1C /* Roboto.ttf */; };
+		FFDDC0BF419E43FF9A20240B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE70097F34535BAB78E1D /* SimpleLineIcons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = RamthaSouq;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "RamthaSouq-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* RamthaSouqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamthaSouqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RamthaSouqTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RamthaSouqTests.m; sourceTree = "<group>"; };
+		039E5DD2B72C471D81FAD2CC /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../fonts/font/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		03F40CC7248D4C599339775F /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../fonts/font/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		07659A0530C1C0BFA479EA80 /* libPods-RamthaSouq-RamthaSouqTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamthaSouq-RamthaSouqTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		098CA29817EFFB55CF7F1603 /* Pods-RamthaSouq-RamthaSouqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq-RamthaSouqTests.debug.xcconfig"; path = "Target Support Files/Pods-RamthaSouq-RamthaSouqTests/Pods-RamthaSouq-RamthaSouqTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09ABB1DE616349C6B2A0BE65 /* Amiri-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Amiri-Italic.ttf"; path = "../fonts/Amiri-Italic.ttf"; sourceTree = "<group>"; };
+		09B94E3B29214E4D9C2CAB35 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../fonts/font/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0B5B6E0D7B27442E9D601679 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		0DED2E077FF2AD403ABC29AE /* Pods-RamthaSouq-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RamthaSouq-tvOSTests/Pods-RamthaSouq-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F4D427F45734A4AB3DE7349 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../fonts/font/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		0F96FE11E49D467FB7EFCA7D /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../fonts/font/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		12FFE70097F34535BAB78E1D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* سوق الرمثا Ramtha Souq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "سوق الرمثا Ramtha Souq.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RamthaSouq/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RamthaSouq/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RamthaSouq/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RamthaSouq/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RamthaSouq/main.m; sourceTree = "<group>"; };
+		1628CAE024CF411590EB9594 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../fonts/font/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		177CA6A933F741DA87E60F0D /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		1956AFCC76F74571A6E73245 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Regular.ttf"; path = "../fonts/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		1B2BA0C981244B09B669FB1C /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		20D49F9A7506454B8A72506D /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-SemiBold.ttf"; path = "../fonts/Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		2280E07973C7497484451BB2 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../fonts/font/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		2C09B8DFC0F543DEA0EDF108 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../fonts/font/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* RamthaSouq-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RamthaSouq-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* RamthaSouq-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RamthaSouq-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC3E359A2324EF8BD39C476 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		33A5A1D296B3408B862008C3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		3985765494524183B14E2923 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		3B784A1BEA704152B90F6FA5 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		40370F6124A3F806000A5784 /* 1-souq (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-souq (2).png"; path = "../../../../../../Downloads/1-souq (2).png"; sourceTree = "<group>"; };
+		40370F6324A4CAA1000A5784 /* 1-souq (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-souq (2).png"; sourceTree = "<group>"; };
+		408FD99D24A3C88000161E63 /* سوق الرمثا Ramtha Souq.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "سوق الرمثا Ramtha Souq.entitlements"; path = "RamthaSouq/سوق الرمثا Ramtha Souq.entitlements"; sourceTree = "<group>"; };
+		42D896788D6D4536B7D3DF9C /* now.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = now.ttf; path = ../fonts/font/now.ttf; sourceTree = "<group>"; };
+		42F9B3FD767D4925B1E0E54D /* pacifico.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = pacifico.ttf; path = ../fonts/pacifico.ttf; sourceTree = "<group>"; };
+		4695C0C8E6B44F41B6E80196 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../fonts/font/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		48A5F975D25716CCA3A636B5 /* Pods-RamthaSouq-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RamthaSouq-tvOSTests/Pods-RamthaSouq-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53707DD125B1477585F7B74A /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../fonts/font/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		546A58FF0999445BAA9CACDC /* Amiri-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Amiri-BoldItalic.ttf"; path = "../fonts/Amiri-BoldItalic.ttf"; sourceTree = "<group>"; };
+		547971301704D1F4BE1E2F91 /* Pods-RamthaSouq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq.release.xcconfig"; path = "Target Support Files/Pods-RamthaSouq/Pods-RamthaSouq.release.xcconfig"; sourceTree = "<group>"; };
+		5656AD8273184B0284A0B2D7 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		56CF8563071F48F8A42255A8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../fonts/font/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		57ED58B4E60540F1B71D9C2B /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../fonts/font/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		5DCBDB77DED042648493B7AE /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../fonts/font/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		61E57BD84D67456FA8695A23 /* Amiri-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Amiri-Bold.ttf"; path = "../fonts/Amiri-Bold.ttf"; sourceTree = "<group>"; };
+		66D16DDE3BD846E7AC173E8F /* Montserrat-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.otf"; path = "../fonts/font/Montserrat-Black.otf"; sourceTree = "<group>"; };
+		73894F34D7D946CAA8634B19 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../fonts/font/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		78713501480A4DA0BA2BD58F /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../fonts/font/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		802C3C999B674CA88F14413F /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		80F06E7362F347079C7D3CD9 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		896AB36530ED4D869B4A5BCC /* Raleway-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic.ttf"; path = "../fonts/font/Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		8AD405832E7E4D92A7BF13F1 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../fonts/font/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		8ADC996B06874629B4B28305 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../fonts/font/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		8D33A26F060647EC9869CBEC /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../fonts/font/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8DCFCC1ED6EC41119B78223B /* Cairo-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Black.ttf"; path = "../fonts/Cairo-Black.ttf"; sourceTree = "<group>"; };
+		8FB79F6257EF47D893F39BE1 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		91EBBC6FF0A845C6B052E297 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../fonts/font/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		99D22857FB4C410C9A90ECC3 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		A3B5C68E9E5249FA8993E8AF /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		A3E530E45E6C4AAEB137A14F /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../fonts/font/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A5929E939214A6F9E7B06161 /* Pods-RamthaSouq-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RamthaSouq-tvOS/Pods-RamthaSouq-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AA2826D970FEA055C30ED5B8 /* Pods-RamthaSouq-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RamthaSouq-tvOS/Pods-RamthaSouq-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC5440D3CC045FB8E2FE10B /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../fonts/font/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AD2D6413D56F4FF0B6BE6A3C /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../fonts/font/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		ADE0C5AD8F7F41A0ADE299BF /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../fonts/font/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		AE8826A9B68E4CB1BACD2C37 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		BB82B5662F4F2B48CAA6FFB7 /* libPods-RamthaSouq-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamthaSouq-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17524B37DFF6B6C0C5C25CD /* libPods-RamthaSouq-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamthaSouq-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BB40259222497D9D0E0FC4 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../fonts/font/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C31B9B636A294CF6930937C2 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../fonts/font/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C4A2ADC8A21749ABA93DC68C /* Cairo-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Light.ttf"; path = "../fonts/Cairo-Light.ttf"; sourceTree = "<group>"; };
+		C663A14B242B4C61B1A30CBF /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../fonts/font/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C9C1914E52E94CB3B98E45DC /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../fonts/font/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CD14B7DB0C6846C2B237EF0A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../fonts/font/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		D2C91A2884CAD62F6FFFA9C7 /* Pods-RamthaSouq-RamthaSouqTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq-RamthaSouqTests.release.xcconfig"; path = "Target Support Files/Pods-RamthaSouq-RamthaSouqTests/Pods-RamthaSouq-RamthaSouqTests.release.xcconfig"; sourceTree = "<group>"; };
+		D419E5154FF04BF3B88F1E83 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Bold.ttf"; path = "../fonts/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		D77910AC226148FCBD320A98 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BlackItalic.ttf"; path = "../fonts/font/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D8741FA7CBA34DEB90173D36 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../fonts/font/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		DD03B930AEF041769CB29BC1 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-ExtraLight.ttf"; path = "../fonts/Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		DD3D40742FB1415DA0F87B18 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../fonts/font/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DE30B6A7832A44698A64ADD8 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../fonts/font/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E054F3937AB44403A5814A04 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		E127B304271C48328712416F /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../fonts/font/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E2D30786355841459169B63D /* Amiri-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Amiri-Regular.ttf"; path = "../fonts/Amiri-Regular.ttf"; sourceTree = "<group>"; };
+		E40ADABDF8FA2FA1CA787EBB /* libPods-RamthaSouq.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RamthaSouq.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E603B3C177E8BB86E7538664 /* Pods-RamthaSouq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamthaSouq.debug.xcconfig"; path = "Target Support Files/Pods-RamthaSouq/Pods-RamthaSouq.debug.xcconfig"; sourceTree = "<group>"; };
+		E681775A9A004254B61DD67A /* Montserrat-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.otf"; path = "../fonts/font/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		E9F1722C923040798050D057 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../fonts/font/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EA639E075C114207AAFF38F2 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../fonts/font/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF1D368B8D154E7190A82DB5 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		F2CC8A5D1EFE4F7485117C5F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		F92A2DCB5AC4442C86C65760 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05940430FD0992E53207B5E8 /* libPods-RamthaSouq-RamthaSouqTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7637FE4032B1C9EBB9AB919 /* libPods-RamthaSouq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64AD58B335B0B7EB03F3D62 /* libPods-RamthaSouq-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71877655E4381407FD4C900 /* libPods-RamthaSouq-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* RamthaSouqTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* RamthaSouqTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = RamthaSouqTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* RamthaSouq */ = {
+			isa = PBXGroup;
+			children = (
+				40370F6124A3F806000A5784 /* 1-souq (2).png */,
+				408FD99D24A3C88000161E63 /* سوق الرمثا Ramtha Souq.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = RamthaSouq;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				E40ADABDF8FA2FA1CA787EBB /* libPods-RamthaSouq.a */,
+				07659A0530C1C0BFA479EA80 /* libPods-RamthaSouq-RamthaSouqTests.a */,
+				BB82B5662F4F2B48CAA6FFB7 /* libPods-RamthaSouq-tvOS.a */,
+				C17524B37DFF6B6C0C5C25CD /* libPods-RamthaSouq-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				40370F6324A4CAA1000A5784 /* 1-souq (2).png */,
+				13B07FAE1A68108700A75B9A /* RamthaSouq */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* RamthaSouqTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				8973A506C26C973C5383AAA8 /* Pods */,
+				9298F88DD9524A6580E4A9E9 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* سوق الرمثا Ramtha Souq.app */,
+				00E356EE1AD99517003FC87E /* RamthaSouqTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* RamthaSouq-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* RamthaSouq-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8973A506C26C973C5383AAA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E603B3C177E8BB86E7538664 /* Pods-RamthaSouq.debug.xcconfig */,
+				547971301704D1F4BE1E2F91 /* Pods-RamthaSouq.release.xcconfig */,
+				098CA29817EFFB55CF7F1603 /* Pods-RamthaSouq-RamthaSouqTests.debug.xcconfig */,
+				D2C91A2884CAD62F6FFFA9C7 /* Pods-RamthaSouq-RamthaSouqTests.release.xcconfig */,
+				AA2826D970FEA055C30ED5B8 /* Pods-RamthaSouq-tvOS.debug.xcconfig */,
+				A5929E939214A6F9E7B06161 /* Pods-RamthaSouq-tvOS.release.xcconfig */,
+				48A5F975D25716CCA3A636B5 /* Pods-RamthaSouq-tvOSTests.debug.xcconfig */,
+				0DED2E077FF2AD403ABC29AE /* Pods-RamthaSouq-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9298F88DD9524A6580E4A9E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B5B6E0D7B27442E9D601679 /* AntDesign.ttf */,
+				F92A2DCB5AC4442C86C65760 /* Entypo.ttf */,
+				A3B5C68E9E5249FA8993E8AF /* EvilIcons.ttf */,
+				80F06E7362F347079C7D3CD9 /* Feather.ttf */,
+				802C3C999B674CA88F14413F /* FontAwesome.ttf */,
+				EF1D368B8D154E7190A82DB5 /* FontAwesome5_Brands.ttf */,
+				5656AD8273184B0284A0B2D7 /* FontAwesome5_Regular.ttf */,
+				F2CC8A5D1EFE4F7485117C5F /* FontAwesome5_Solid.ttf */,
+				177CA6A933F741DA87E60F0D /* Fontisto.ttf */,
+				8FB79F6257EF47D893F39BE1 /* Foundation.ttf */,
+				3985765494524183B14E2923 /* Ionicons.ttf */,
+				33A5A1D296B3408B862008C3 /* MaterialCommunityIcons.ttf */,
+				2EC3E359A2324EF8BD39C476 /* MaterialIcons.ttf */,
+				E054F3937AB44403A5814A04 /* Octicons.ttf */,
+				AE8826A9B68E4CB1BACD2C37 /* Roboto_medium.ttf */,
+				1B2BA0C981244B09B669FB1C /* Roboto.ttf */,
+				3B784A1BEA704152B90F6FA5 /* rubicon-icon-font.ttf */,
+				12FFE70097F34535BAB78E1D /* SimpleLineIcons.ttf */,
+				99D22857FB4C410C9A90ECC3 /* Zocial.ttf */,
+				61E57BD84D67456FA8695A23 /* Amiri-Bold.ttf */,
+				546A58FF0999445BAA9CACDC /* Amiri-BoldItalic.ttf */,
+				09ABB1DE616349C6B2A0BE65 /* Amiri-Italic.ttf */,
+				E2D30786355841459169B63D /* Amiri-Regular.ttf */,
+				8DCFCC1ED6EC41119B78223B /* Cairo-Black.ttf */,
+				D419E5154FF04BF3B88F1E83 /* Cairo-Bold.ttf */,
+				DD03B930AEF041769CB29BC1 /* Cairo-ExtraLight.ttf */,
+				C4A2ADC8A21749ABA93DC68C /* Cairo-Light.ttf */,
+				1956AFCC76F74571A6E73245 /* Cairo-Regular.ttf */,
+				20D49F9A7506454B8A72506D /* Cairo-SemiBold.ttf */,
+				66D16DDE3BD846E7AC173E8F /* Montserrat-Black.otf */,
+				0F4D427F45734A4AB3DE7349 /* Montserrat-Black.ttf */,
+				ABC5440D3CC045FB8E2FE10B /* Montserrat-BlackItalic.ttf */,
+				E681775A9A004254B61DD67A /* Montserrat-Bold.otf */,
+				0F96FE11E49D467FB7EFCA7D /* Montserrat-Bold.ttf */,
+				DD3D40742FB1415DA0F87B18 /* Montserrat-BoldItalic.ttf */,
+				4695C0C8E6B44F41B6E80196 /* Montserrat-ExtraBold.ttf */,
+				ADE0C5AD8F7F41A0ADE299BF /* Montserrat-ExtraBoldItalic.ttf */,
+				78713501480A4DA0BA2BD58F /* Montserrat-ExtraLight.ttf */,
+				8AD405832E7E4D92A7BF13F1 /* Montserrat-ExtraLightItalic.ttf */,
+				1628CAE024CF411590EB9594 /* Montserrat-Italic.ttf */,
+				2280E07973C7497484451BB2 /* Montserrat-Light.ttf */,
+				56CF8563071F48F8A42255A8 /* Montserrat-LightItalic.ttf */,
+				CD14B7DB0C6846C2B237EF0A /* Montserrat-Medium.ttf */,
+				A3E530E45E6C4AAEB137A14F /* Montserrat-MediumItalic.ttf */,
+				E9F1722C923040798050D057 /* Montserrat-Regular.ttf */,
+				91EBBC6FF0A845C6B052E297 /* Montserrat-SemiBold.ttf */,
+				E127B304271C48328712416F /* Montserrat-SemiBoldItalic.ttf */,
+				039E5DD2B72C471D81FAD2CC /* Montserrat-Thin.ttf */,
+				C9C1914E52E94CB3B98E45DC /* Montserrat-ThinItalic.ttf */,
+				42D896788D6D4536B7D3DF9C /* now.ttf */,
+				AD2D6413D56F4FF0B6BE6A3C /* Raleway-Black.ttf */,
+				D77910AC226148FCBD320A98 /* Raleway-BlackItalic.ttf */,
+				53707DD125B1477585F7B74A /* Raleway-Bold.ttf */,
+				C1BB40259222497D9D0E0FC4 /* Raleway-BoldItalic.ttf */,
+				DE30B6A7832A44698A64ADD8 /* Raleway-ExtraBold.ttf */,
+				8D33A26F060647EC9869CBEC /* Raleway-ExtraBoldItalic.ttf */,
+				C31B9B636A294CF6930937C2 /* Raleway-ExtraLight.ttf */,
+				EA639E075C114207AAFF38F2 /* Raleway-ExtraLightItalic.ttf */,
+				896AB36530ED4D869B4A5BCC /* Raleway-Italic.ttf */,
+				2C09B8DFC0F543DEA0EDF108 /* Raleway-Light.ttf */,
+				73894F34D7D946CAA8634B19 /* Raleway-LightItalic.ttf */,
+				03F40CC7248D4C599339775F /* Raleway-Medium.ttf */,
+				5DCBDB77DED042648493B7AE /* Raleway-MediumItalic.ttf */,
+				57ED58B4E60540F1B71D9C2B /* Raleway-Regular.ttf */,
+				8ADC996B06874629B4B28305 /* Raleway-SemiBold.ttf */,
+				09B94E3B29214E4D9C2CAB35 /* Raleway-SemiBoldItalic.ttf */,
+				D8741FA7CBA34DEB90173D36 /* Raleway-Thin.ttf */,
+				C663A14B242B4C61B1A30CBF /* Raleway-ThinItalic.ttf */,
+				42F9B3FD767D4925B1E0E54D /* pacifico.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* RamthaSouqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RamthaSouqTests" */;
+			buildPhases = (
+				430F15D1615A92E1F376AB6A /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = RamthaSouqTests;
+			productName = RamthaSouqTests;
+			productReference = 00E356EE1AD99517003FC87E /* RamthaSouqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* RamthaSouq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RamthaSouq" */;
+			buildPhases = (
+				B918FF742F13E05405A0713E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamthaSouq;
+			productName = RamthaSouq;
+			productReference = 13B07F961A680F5B00A75B9A /* سوق الرمثا Ramtha Souq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* RamthaSouq-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RamthaSouq-tvOS" */;
+			buildPhases = (
+				7BE2B42B7C659BBF2A3F981E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RamthaSouq-tvOS";
+			productName = "RamthaSouq-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* RamthaSouq-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* RamthaSouq-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RamthaSouq-tvOSTests" */;
+			buildPhases = (
+				7CA01889CBB05A3556B7BA8B /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "RamthaSouq-tvOSTests";
+			productName = "RamthaSouq-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* RamthaSouq-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 898AP85U87;
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RamthaSouq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* RamthaSouq */,
+				00E356ED1AD99517003FC87E /* RamthaSouqTests */,
+				2D02E47A1E0B4A5D006451C7 /* RamthaSouq-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* RamthaSouq-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				E4EC1B44F91E41A7975A49BB /* AntDesign.ttf in Resources */,
+				E5BB164C71664B3C9BD5BF7E /* Entypo.ttf in Resources */,
+				1F7C1B35A0FA4E74885F2F24 /* EvilIcons.ttf in Resources */,
+				70216344CB40427E9E540F55 /* Feather.ttf in Resources */,
+				1323FDCD7322417F8090A833 /* FontAwesome.ttf in Resources */,
+				7FF01230B87B47FEB8433C77 /* FontAwesome5_Brands.ttf in Resources */,
+				39B350459BE74B28B3EAE322 /* FontAwesome5_Regular.ttf in Resources */,
+				51AF1A02E19C4C1FA531504A /* FontAwesome5_Solid.ttf in Resources */,
+				40370F6224A3F806000A5784 /* 1-souq (2).png in Resources */,
+				2026014E57E14F8EAC605919 /* Fontisto.ttf in Resources */,
+				DC71ED65C9A24F1C8709E53B /* Foundation.ttf in Resources */,
+				2AFA813494534358BAA075B0 /* Ionicons.ttf in Resources */,
+				FE06E510416D42D7B236C7C5 /* MaterialCommunityIcons.ttf in Resources */,
+				75D99B537B174CBCB7F47F7E /* MaterialIcons.ttf in Resources */,
+				E693DAA6218841AE92ACEE28 /* Octicons.ttf in Resources */,
+				063F2191791F4BAAB74BA7EC /* Roboto_medium.ttf in Resources */,
+				FF6A5FF49F574012BFDBF70E /* Roboto.ttf in Resources */,
+				DB8BCC8B97224096A506A08C /* rubicon-icon-font.ttf in Resources */,
+				FFDDC0BF419E43FF9A20240B /* SimpleLineIcons.ttf in Resources */,
+				50C72F5E98A74759B52022D7 /* Zocial.ttf in Resources */,
+				44A636F5CCB94E59B3CD275B /* Amiri-Bold.ttf in Resources */,
+				6E99D940D7814E91A550DB34 /* Amiri-BoldItalic.ttf in Resources */,
+				E315D22A52334A06AAB4830D /* Amiri-Italic.ttf in Resources */,
+				9F1F842D0EF24BCCAA566268 /* Amiri-Regular.ttf in Resources */,
+				7D2E0B9C086B454AADFEC1BA /* Cairo-Black.ttf in Resources */,
+				74EE801694294070B0B7C8D0 /* Cairo-Bold.ttf in Resources */,
+				7BB6B6ACD2644ACEBD6E2CA3 /* Cairo-ExtraLight.ttf in Resources */,
+				561C8A9D2F9545BB8423B22E /* Cairo-Light.ttf in Resources */,
+				DEA78A8391BD4802A60699CF /* Cairo-Regular.ttf in Resources */,
+				A2F347ED83B14AC59A2536C6 /* Cairo-SemiBold.ttf in Resources */,
+				F66D555ECC254A8BA16632BC /* Montserrat-Black.otf in Resources */,
+				EB67F88D851846838CAF8829 /* Montserrat-Black.ttf in Resources */,
+				4B30948EF590497EAF15EEE9 /* Montserrat-BlackItalic.ttf in Resources */,
+				115DCEC147524D38A93CB33F /* Montserrat-Bold.otf in Resources */,
+				E3D54703DBA24A2DB41416B4 /* Montserrat-Bold.ttf in Resources */,
+				E37A1D2C27CD4E0582085E50 /* Montserrat-BoldItalic.ttf in Resources */,
+				70F8B7DABBDA47CD9941CB50 /* Montserrat-ExtraBold.ttf in Resources */,
+				2A66053FAB354F31B6C02E45 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				79B837C89BF7413F9299C8DB /* Montserrat-ExtraLight.ttf in Resources */,
+				B11C73EEE27B47D9A66D170C /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				97B3EEE2DDA94407ADBCBC35 /* Montserrat-Italic.ttf in Resources */,
+				BAADC44DFD334639A55B29F2 /* Montserrat-Light.ttf in Resources */,
+				6E818CF9716144CC95566DFE /* Montserrat-LightItalic.ttf in Resources */,
+				6C9598CFBDD24CD6A397D0BD /* Montserrat-Medium.ttf in Resources */,
+				95E3CF26E43D4980B750E56F /* Montserrat-MediumItalic.ttf in Resources */,
+				83FCBD2E770A4F0D871426E6 /* Montserrat-Regular.ttf in Resources */,
+				55C27695B0A04498BC5C6A6B /* Montserrat-SemiBold.ttf in Resources */,
+				18229A69BF6C4B90860D8BE4 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				FBD0D3739F8B406588063A0B /* Montserrat-Thin.ttf in Resources */,
+				4C97B0DD410441A8BA0FD4D3 /* Montserrat-ThinItalic.ttf in Resources */,
+				A5A0064266DE4CBFA6401C1D /* now.ttf in Resources */,
+				D8E334AEBE1848DB8CF01EAE /* Raleway-Black.ttf in Resources */,
+				50F06DD378764798B0F1455A /* Raleway-BlackItalic.ttf in Resources */,
+				C1B8705DA75A4869993F348A /* Raleway-Bold.ttf in Resources */,
+				82A16E15942841FA898251D7 /* Raleway-BoldItalic.ttf in Resources */,
+				DE1CC8C4BB8044C0952FD2F0 /* Raleway-ExtraBold.ttf in Resources */,
+				91BA22D5A7A044A2A7CD95F2 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				921C83D9F20A43FF842606A7 /* Raleway-ExtraLight.ttf in Resources */,
+				B3A6BFF6C14347E3864606BA /* Raleway-ExtraLightItalic.ttf in Resources */,
+				48E5180DCE194F70B3756ECD /* Raleway-Italic.ttf in Resources */,
+				705F42AD8D9345A3A0D28F75 /* Raleway-Light.ttf in Resources */,
+				C97FCDEBB99947A383F6C271 /* Raleway-LightItalic.ttf in Resources */,
+				C4D3634FC4404DCEAD26FBF0 /* Raleway-Medium.ttf in Resources */,
+				9E8228BC692946A0AECADF15 /* Raleway-MediumItalic.ttf in Resources */,
+				FB463D85BD114A92A923F395 /* Raleway-Regular.ttf in Resources */,
+				6EBFFEA5EB9047F5807615F3 /* Raleway-SemiBold.ttf in Resources */,
+				935603D619ED49ACA2EE90A1 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				5615809CA00045BE86100F01 /* Raleway-Thin.ttf in Resources */,
+				4616D8C7A19E490CA578FB29 /* Raleway-ThinItalic.ttf in Resources */,
+				F01E4DE464474D1F844DA0A6 /* pacifico.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		430F15D1615A92E1F376AB6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamthaSouq-RamthaSouqTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE2B42B7C659BBF2A3F981E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamthaSouq-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA01889CBB05A3556B7BA8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamthaSouq-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B918FF742F13E05405A0713E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamthaSouq-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* RamthaSouqTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* RamthaSouqTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* RamthaSouq */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* RamthaSouq-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = RamthaSouq;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098CA29817EFFB55CF7F1603 /* Pods-RamthaSouq-RamthaSouqTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RamthaSouqTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamthaSouq.app/RamthaSouq";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C91A2884CAD62F6FFFA9C7 /* Pods-RamthaSouq-RamthaSouqTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = RamthaSouqTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamthaSouq.app/RamthaSouq";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E603B3C177E8BB86E7538664 /* Pods-RamthaSouq.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "RamthaSouq/سوق الرمثا Ramtha Souq.entitlements";
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_TEAM = 898AP85U87;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = RamthaSouq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 24.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opentiq.ramthasouq;
+				PRODUCT_NAME = "سوق الرمثا Ramtha Souq";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547971301704D1F4BE1E2F91 /* Pods-RamthaSouq.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "RamthaSouq/سوق الرمثا Ramtha Souq.entitlements";
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_TEAM = 898AP85U87;
+				INFOPLIST_FILE = RamthaSouq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 24.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.opentiq.ramthasouq;
+				PRODUCT_NAME = "سوق الرمثا Ramtha Souq";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2826D970FEA055C30ED5B8 /* Pods-RamthaSouq-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "RamthaSouq-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RamthaSouq-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5929E939214A6F9E7B06161 /* Pods-RamthaSouq-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "RamthaSouq-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RamthaSouq-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A5F975D25716CCA3A636B5 /* Pods-RamthaSouq-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "RamthaSouq-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RamthaSouq-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamthaSouq-tvOS.app/RamthaSouq-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DED2E077FF2AD403ABC29AE /* Pods-RamthaSouq-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "RamthaSouq-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.RamthaSouq-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamthaSouq-tvOS.app/RamthaSouq-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RamthaSouqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RamthaSouq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RamthaSouq-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RamthaSouq-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RamthaSouq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
